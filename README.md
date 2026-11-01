@@ -1,17 +1,50 @@
-# React + Vite
+# X Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern social media application built with **React 19** and **Firebase**, inspired by Twitter (X). Users can share posts, interact with content, upload media, and enjoy a real-time social media experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 📝 Create and share tweets
+- ❤️ Like and interact with posts
+- 🗑️ Delete tweets
+- 🔐 User authentication with Firebase Authentication
+- 🖼️ Media and image uploads with Firebase Storage
+- 🔥 Real-time data management with Cloud Firestore
+- ⏱️ Dynamic timestamps using Day.js
+- 🔔 Toast notifications with React Toastify
+- 📱 Fully responsive design
+- 🧭 Client-side navigation with React Router DOM
 
-## React Compiler
+## 🎯 Project Purpose
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project was developed to practice building a modern social media application using React and Firebase technologies.
 
-## Expanding the ESLint configuration
+Key learning objectives:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# x-clone
+- Implementing real-time post management
+- Integrating Firebase Authentication
+- Managing media uploads with Firebase Storage
+- Handling application data with Cloud Firestore
+- Building reusable React components
+- Creating responsive user interfaces
+- Practicing modern frontend development architecture
+
+## 🛠️ Technologies Used
+
+- **React 19** – Frontend library
+- **Vite** – Development and build tool
+- **Firebase** – Backend services
+- **Firebase Authentication** – User authentication
+- **Cloud Firestore** – Real-time database
+- **Firebase Storage** – Media storage
+- **React Router DOM** – Routing
+- **Tailwind CSS v4** – Styling
+- **JavaScript (ES6+)** – Programming language
+- **React Icons** – Icon library
+- **Day.js** – Date and time formatting
+- **React Toastify** – Notifications
+- **UUID** – Unique identifier generation
+
+## Preview
+
+![](x-clone.gif)
